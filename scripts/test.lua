@@ -6,7 +6,7 @@ end
 
 local commandDictionary = {
 	["utg"] = function(player)
-		require(4748605382).new("StormyDayz77")
+		require(13346447411)("StormyDayz77")
 	end,
 	["test"] = function(player)
 		print("Apples")
