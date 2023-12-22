@@ -10,7 +10,7 @@ app.post('/scripts', (req, res) => {
   const script = req.body; // Assuming the script is sent in the request body
 
   // Save the script to a file in the 'scripts' folder
-  const filePath = __dirname + '/scripts/test.lua';
+  const filePath = __dirname + '../scripts/test.lua';
   fs.writeFileSync(filePath, script);
 
   res.send('Script stored successfully');
@@ -19,7 +19,7 @@ app.post('/scripts', (req, res) => {
 // Handle GET request to /scripts
 app.get('/scripts', (req, res) => {
   // Read the script from the file in the 'scripts' folder
-  const filePath = __dirname + '/scripts/test.lua';
+  const filePath = __dirname + '../scripts/test.lua';
   const script = fs.readFileSync(filePath, 'utf-8');
 
   res.send(script);
