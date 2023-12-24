@@ -29,7 +29,7 @@ local commandDictionary = {
   ["cmdlets"] = function(player)
 	warn("utg: Gives the ultimate trolling gui")
     warn("test: tests cmdlets to see if they are running")
-    warn("Kronos: Gives the opensource (better adonis) Kronos admin")
+    warn("kronos: gives you Kronos admin system (modified arguably beter version of adonis)")
     warn("particles: Gives hacker particles to everyone")
     warn("guns: gives you guns")
     warn("debug: elevates your admin level")
